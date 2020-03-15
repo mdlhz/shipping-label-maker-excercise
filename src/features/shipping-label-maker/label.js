@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from "@material-ui/core/Typography";
-import CardContent from "@material-ui/core/CardContent";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -23,7 +22,6 @@ export default function Label(props) {
   const classes = useStyles();
   const { from, to, weight, shippingOption } = props.data;
 
-  console.log('label data', from);
   React.useEffect(() => {
     window.print();
   }, []);
@@ -66,6 +64,15 @@ export default function Label(props) {
         </Typography>
         <Typography variant="div" component="p">
           {to.zip}
+        </Typography>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
+          Shipping:
+        </Typography>
+        <Typography variant="div" component="p">
+          {shippingOption === 1 ? "Ground" : "Priority"}
+        </Typography>
+        <Typography variant="div" component="p">
+          Weight:{weight}Kg
         </Typography>
       </Paper>
     </div>

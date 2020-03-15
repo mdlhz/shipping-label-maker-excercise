@@ -7,11 +7,16 @@ const ShippingLabelMaker = (props) => {
 
   const [isComplete, setIsComplete] = React.useState(false);
   const [data, setData] = React.useState({});
+  const [user, setUser] = React.useState({username:'', authenticated: false});
 
   const createLabel = function (data) {
     setIsComplete(true);
     setData(data);
   }
+
+  // const authenticate = function (user) {
+  //   setUser(user);
+  // }
 
   if (isComplete) {
     return (
@@ -42,6 +47,8 @@ const ShippingLabelMaker = (props) => {
       }}
       steps={['Enter the sender\'s address:', 'Enter the receivers\'s address:', 'Enter Weight', 'Choose a Shipping Option', 'Confirm']}
       onComplete={createLabel}
+      dbUsers={'../../../../assets/users.json'}
+      user={user}
     />
   );
 }

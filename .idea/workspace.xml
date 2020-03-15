@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21fbcd73-1ec4-420a-af19-197bd0a984bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/GlobalContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/WizardContextProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/components/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/components/wizard/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-receiver-address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-sender-address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-shipping-option.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-weight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/label.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/shipping-label-maker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/components/wizard/wizard.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/with-authentication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/GlobalContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/WizardContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/components/wizard/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/components/wizard/wizard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/confirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/confirm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/get-receiver-address.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-receiver-address.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/get-sender-address.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-sender-address.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/get-shipping-option.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-shipping-option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/get-weight.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/get-weight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/label.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/label.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shipping-label-maker/shipping-label-maker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shipping-label-maker/shipping-label-maker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\diana\PhpstormProjects\React\shipping-label-maker-excercise\src" />
       <recent name="C:\Users\diana\PhpstormProjects\React\shipping-label-maker-excercise\src\core" />
     </key>
   </component>
@@ -86,6 +92,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,7 +120,7 @@
       <updated>1584041602062</updated>
       <workItem from="1584041603157" duration="3482000" />
       <workItem from="1584063908572" duration="4855000" />
-      <workItem from="1584090617931" duration="20656000" />
+      <workItem from="1584090617931" duration="65335000" />
     </task>
     <servers />
   </component>
@@ -111,37 +132,37 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="634" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1584092168742" />
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1584105595122">
+    <state width="1659" height="210" key="GridCell.Tab.0.bottom" timestamp="1584237213115">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.0.2560.1400@0.0.1707.920" timestamp="1584044674051" />
-    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1584105595122" />
-    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1584105595122">
+    <state width="1659" height="210" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1584237213115" />
+    <state width="1659" height="210" key="GridCell.Tab.0.center" timestamp="1584237213114">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920/2560.0.2560.1400@0.0.1707.920" timestamp="1584044674050" />
-    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1584105595122" />
-    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1584105595122">
+    <state width="1659" height="210" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1584237213114" />
+    <state width="1659" height="210" key="GridCell.Tab.0.left" timestamp="1584237213114">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920/2560.0.2560.1400@0.0.1707.920" timestamp="1584044674050" />
-    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1584105595122" />
-    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1584105595122">
+    <state width="1659" height="210" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1584237213114" />
+    <state width="1659" height="210" key="GridCell.Tab.0.right" timestamp="1584237213114">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920/2560.0.2560.1400@0.0.1707.920" timestamp="1584044674050" />
-    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1584105595122" />
+    <state width="1659" height="210" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1584237213114" />
     <state x="550" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1584090802861">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="550" y="285" key="com.intellij.ide.util.TipDialog/0.0.1707.920@0.0.1707.920" timestamp="1584090802861" />
-    <state x="370" y="91" width="788" height="637" key="find.popup" timestamp="1584111274751">
+    <state x="370" y="91" width="788" height="637" key="find.popup" timestamp="1584236450123">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="370" y="91" width="788" height="637" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1584111274751" />
-    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1584097801474">
+    <state x="370" y="91" width="788" height="637" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1584236450123" />
+    <state x="517" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1584220512505">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1584097801474" />
+    <state x="517" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1584220512505" />
   </component>
 </project>

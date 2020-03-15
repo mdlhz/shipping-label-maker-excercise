@@ -1,3 +1,12 @@
+# Excercise Solution
+For the solution I leveraged:
+ - Material Ui and the stepper component
+ - I added basic validation
+ - I added a basic test 
+ - I created the file `users.json` in the `public/assets` folder.
+This file is to simulate the response from an api from a login form in the `with-authentication` hoc
+ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

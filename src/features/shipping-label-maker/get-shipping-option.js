@@ -8,6 +8,11 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 
 const useStyles = makeStyles(theme => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
   formControl: {
     margin: theme.spacing(3),
   },
@@ -24,7 +29,7 @@ export default function GetShippingOption(props) {
   };
 
   return (
-    <div>
+    <div className={classes.root}>
       <FormControl component="fieldset" className={classes.formControl}>
         <FormLabel component="legend">Shipping option</FormLabel>
         <RadioGroup aria-label="shipping option" name="shippingOption" value={value} onChange={handleChange}>

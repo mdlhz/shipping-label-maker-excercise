@@ -5,7 +5,8 @@ import TextField from '@material-ui/core/TextField';
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
+    alignItems: 'center',
   },
   textField: {
     marginLeft: theme.spacing(1),
@@ -17,13 +18,16 @@ const useStyles = makeStyles(theme => ({
 export default function GetWeight(props) {
   const classes = useStyles();
   const { weight }  = props.wizardContext;
-  const { onAction } = props;
+  const { onAction, error } = props;
+  console.log('get weight is error', error);
+  let errorWeight = error ? true : false;
 
   return (
     <div className={classes.root}>
       <div>
         <TextField
           label="Enter Weight in Kg"
+          error={errorWeight}
           id="weight"
           placeholder="3"
           className={classes.textField}
